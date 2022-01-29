@@ -1,0 +1,10 @@
+.box-left {
+  justify-content: center;
+  align-items: center;
+}
+.funtion-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0px 30px;
+}

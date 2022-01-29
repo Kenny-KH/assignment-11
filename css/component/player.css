@@ -1,0 +1,27 @@
+.player {
+  width: 330px;
+  height: 70px;
+  background-color: black;
+  border-radius: 40px;
+  position: absolute;
+  bottom: 65px;
+  margin-left: 10px;
+  color: white;
+  padding: 17px 20px;
+}
+
+.player__singer {
+  color: rgb(146, 146, 146);
+  margin-bottom: 3px;
+}
+
+.player__title {
+  font-weight: 600;
+}
+
+.player__controler {
+  color: white;
+  position: relative;
+  left: 200px;
+  bottom: 25px;
+}

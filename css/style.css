@@ -1,5 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
 @import "reset.css";
 
+/* component */
+@import "component/box-left.css";
+@import "component/player.css";
+
+/* screen */
+@import "screen/info.css";
+@import "screen/btn.css";
+@import "screen/list.css";
 * {
   box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.background {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 1000px;
+  width: 1000px;
+  background-color: #f5f5f5;
+}
+
+.box-left {
+  height: 700px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.box-right {
+  height: 700px;
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
 }

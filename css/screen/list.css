@@ -1,0 +1,53 @@
+.list {
+  margin: 0px 20px;
+  width: 300px;
+  height: 340px;
+  align-items: center;
+}
+
+.list__selected {
+  display: flex;
+
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.4);
+  margin: 10px 0px;
+}
+
+.list__img {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
+
+.list__text {
+  margin-left: 80px;
+}
+
+.list__selected i {
+  position: absolute;
+  left: 38px;
+  color: white;
+}
+
+.list__singer {
+  font-weight: 400;
+}
+
+.list__songname {
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.list__etc i {
+  position: absolute;
+  color: black;
+  left: 280px;
+  top: 23px;
+}
