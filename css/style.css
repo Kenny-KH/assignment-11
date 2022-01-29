@@ -3,12 +3,15 @@
 
 /* component */
 @import "component/box-left.css";
+@import "component/box-right.css";
 @import "component/player.css";
 
 /* screen */
 @import "screen/info.css";
 @import "screen/btn.css";
 @import "screen/list.css";
+@import "screen/song-player.css";
+@import "screen/song-selector.css";
 * {
   box-sizing: border-box;
 }

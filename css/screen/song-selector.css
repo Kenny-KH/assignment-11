@@ -1,0 +1,21 @@
+.song-selector {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 110px;
+  margin-left: 1px;
+}
+
+.song-selector-play {
+  position: relative;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  padding: 33px;
+  bottom: 25px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 0.5em rgba(0, 0, 88, 0.705);
+}
